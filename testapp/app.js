@@ -66,7 +66,7 @@ app.get('/api/completion', async (req, res) => {
     res.status(500).send({ error: 'Failed to complete the request' });
   }
 });
-
+//
 app.listen(3000, () => {
   console.log('Server is listening on port 3000');
 });
